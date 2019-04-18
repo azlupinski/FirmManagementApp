@@ -1,0 +1,15 @@
+body
+{
+    background-color: #2F3336;
+    color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1
+{
+    font-size: 28px;
+    font-weight: 400;
+    color: #C0D06F;
+    margin: 20px;
+}
