@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Firm Management</title>
+
+    <meta name="description" content="Application allowing to manage employees, evaluate them and other features.">
+    <meta name="keywords" content="firm management, application, employees magagement">
+    <meta name="author" content="Lukasz Kardasz, Adam Łupiński, Rafał Rogalski, Sebastian Skrocki">
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-dark bg-primary navbar-expand-md">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" class="d-inline-block mr-1 align-middle"
+                                              alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
+                aria-controls="mainmenu" aria-expanded="false" aria-label="Navigation switch">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainmenu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"> Home </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> About </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#" aria-expanded="false" id="submenu"aria-haspopup="true"> Pricing </a>
+
+                    <div class="dropdown-menu" aria-labelledby="submenu" a>
+
+                        <a class="dropdown-item" href="#"> Price list </a>
+                        <a class="dropdown-item" href="#"> Discount codes </a>
+
+                        <div class="dropdown-divider"></div>
+
+                        <a class="dropdown-item" href="#"> Promotions </a>
+                    </div>
+
+                </li>
+
+                <li class="nav-item mr-1">
+                    <a class="nav-link" href="#"> Contact </a>
+                </li>
+
+            </ul>
+
+            <button class="btn btn-light" type="button"> Login </button>
+
+        </div>
+
+
+    </nav>
+</header>
+
+<main>
+
+    <div class="container">
+        <div class="row mblank-1">
+            <div class="col-sm-12 col-md-6 mt-4">
+                <h0>Opinie użytkowników</h0>
+                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis cum cupiditate distinctio dolore eaque eveniet expedita harum illo, laborum magnam numquam officia reiciendis repellendus sequi tempora vel vitae voluptatem?</span><span>Assumenda exercitationem fugit in iusto magnam minima nesciunt repudiandae. Aliquam, dolor doloribus eaque fuga, incidunt magni nostrum obcaecati praesentium quae ratione rem sequi voluptatibus! Accusantium corporis excepturi hic sequi voluptatibus.</span><span>Aliquam, architecto aut blanditiis, commodi earum ex laboriosam maxime nam, nesciunt nihil odit officiis sunt vero. Beatae ex iste laboriosam minima sapiente. Adipisci commodi consequatur, doloremque impedit odit quos saepe?</span><span>Aspernatur assumenda at ipsa ipsam iusto libero maxime minus placeat voluptas voluptatem. Ab aliquid autem culpa delectus dolor, explicabo harum iure perferendis quasi quibusdam quisquam ratione saepe soluta. Eum, necessitatibus.</span><span>Accusantium alias aspernatur at deserunt dignissimos dolor dolore, expedita in iusto laborum minus necessitatibus non nulla numquam omnis pariatur porro quisquam quo rem reprehenderit repudiandae similique tempore vel voluptas voluptatum.</span>
+                </p>
+            </div>
+
+            <div class="col-sm-12 col-md-6 mt-4">
+                <h0>Newsy dotyczące produktu</h0>
+                <p><span><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at aut commodi consequatur distinctio earum eos expedita fuga hic inventore ipsam, laudantium nobis, non optio possimus quaerat quo voluptatem. Maxime.</span><span>Aliquam amet asperiores blanditiis cumque dolore doloremque ex excepturi fugit harum illo in, ipsam molestiae molestias nisi optio placeat possimus quaerat sint ullam velit. Explicabo minima odit qui repudiandae unde.</span><span>A ab accusantium ad architecto corporis cum cupiditate deleniti dicta doloremque dolores ea eius et facere fugit id iure magnam, maiores nam natus numquam quod repellat repellendus tenetur veniam vitae.</span></span>
+                </p>
+            </div>
+        </div>
+        <div class="row mt-2 mt-4">
+            <div class="col-sm-3">
+                <figure>
+                    <a href="#"><img src="img/logo.png" height="50" alt="Logo"></a>
+                    <figcaption>Logo Lorem</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <a href="#"><img src="img/logo.png" height="50" alt="Logo"></a>
+                    <figcaption>Logo Lorem</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <a href="#"><img src="img/logo.png" height="50" alt="Logo"></a>
+                    <figcaption>Logo Lorem</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <a href="#"><img src="img/logo.png" height="50" alt="Logo"></a>
+                    <figcaption>Logo Lorem</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <a href="#"><img src="img/logo.png" height="50" alt="Logo"></a>
+                    <figcaption>Logo Lorem</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <a href="#"><img src="img/logo.png" height="50" alt="Logo"></a>
+                    <figcaption>Logo Lorem</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <a href="#"><img src="img/logo.png" height="50" alt="Logo"></a>
+                    <figcaption>Logo Lorem</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <a href="#"><img src="img/logo.png" height="50" alt="Logo"></a>
+                    <figcaption>Logo Lorem</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <a href="#"><img src="img/logo.png" height="50" alt="Logo"></a>
+                    <figcaption>Logo Lorem</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <a href="#"><img src="img/logo.png" height="50" alt="Logo"></a>
+                    <figcaption>Logo Lorem</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <a href="#"><img src="img/logo.png" height="50" alt="Logo"></a>
+                    <figcaption>Logo Lorem</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <a href="#"><img src="img/logo.png" height="50" alt="Logo"></a>
+                    <figcaption>Logo Lorem</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <footer>
+            <p>
+                Created with <i class="fas fa-heart"></i> by Ogórki Wacława
+            </p>
+        </footer>
+
+
+    </div>
+
+</main>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
