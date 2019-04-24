@@ -8,7 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class FirmManagementAppApplication {
 
 	public static void main(String[] args) {
-		ConfigurableApplicationContext context =SpringApplication.run(FirmManagementAppApplication.class, args);
+		ConfigurableApplicationContext context = SpringApplication.run(FirmManagementAppApplication.class, args);
 
 	}
 

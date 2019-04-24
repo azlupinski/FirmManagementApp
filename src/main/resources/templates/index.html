@@ -8,7 +8,7 @@
     <title>Firm Management</title>
 
     <meta name="description" content="Application allowing to manage employees, evaluate them and other features.">
-    <meta name="keywords" content="firm management, application, employees magagement">
+    <meta name="keywords" content="firm management, application, employees management">
     <meta name="author" content="Lukasz Kardasz, Adam Łupiński, Rafał Rogalski, Sebastian Skrocki">
     <meta http-equiv="X-Ua-Compatible" content="IE=edge">
 
@@ -21,53 +21,54 @@
 
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-dark bg-primary navbar-expand-md">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" class="d-inline-block mr-1 align-middle"
-                                              alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
-                aria-controls="mainmenu" aria-expanded="false" aria-label="Navigation switch">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<th:block th:include="navbar :: navbaren">Header</th:block>
+<!--<header>-->
+    <!--<nav class="navbar navbar-dark bg-primary navbar-expand-md">-->
+        <!--<a class="navbar-brand" href="#"><img src="img/logo.png" height="30" class="d-inline-block mr-1 align-middle"-->
+                                              <!--alt="logo"></a>-->
+        <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"-->
+                <!--aria-controls="mainmenu" aria-expanded="false" aria-label="Navigation switch">-->
+            <!--<span class="navbar-toggler-icon"></span>-->
+        <!--</button>-->
 
-        <div class="collapse navbar-collapse" id="mainmenu">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"> Home </a>
-                </li>
+        <!--<div class="collapse navbar-collapse" id="mainmenu">-->
+            <!--<ul class="navbar-nav mr-auto">-->
+                <!--<li class="nav-item active">-->
+                    <!--<a class="nav-link" href=""> Home </a>-->
+                <!--</li>-->
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> About </a>
-                </li>
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#"> About </a>-->
+                <!--</li>-->
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#" aria-expanded="false" id="submenu"aria-haspopup="true"> Pricing </a>
+                <!--<li class="nav-item dropdown">-->
+                    <!--<a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#" aria-expanded="false" id="submenu"aria-haspopup="true"> Pricing </a>-->
 
-                    <div class="dropdown-menu" aria-labelledby="submenu" a>
+                    <!--<div class="dropdown-menu" aria-labelledby="submenu" a>-->
 
-                        <a class="dropdown-item" href="#"> Price list </a>
-                        <a class="dropdown-item" href="#"> Discount codes </a>
+                        <!--<a class="dropdown-item" href="#"> Price list </a>-->
+                        <!--<a class="dropdown-item" href="#"> Discount codes </a>-->
 
-                        <div class="dropdown-divider"></div>
+                        <!--<div class="dropdown-divider"></div>-->
 
-                        <a class="dropdown-item" href="#"> Promotions </a>
-                    </div>
+                        <!--<a class="dropdown-item" href="#"> Promotions </a>-->
+                    <!--</div>-->
 
-                </li>
+                <!--</li>-->
 
-                <li class="nav-item mr-1">
-                    <a class="nav-link" href="#"> Contact </a>
-                </li>
+                <!--<li class="nav-item mr-1">-->
+                    <!--<a class="nav-link" href="#"> Contact </a>-->
+                <!--</li>-->
 
-            </ul>
+            <!--</ul>-->
 
-            <button class="btn btn-light" type="button"> Login </button>
+            <!--<button class="btn btn-light" type="button"> Login </button>-->
 
-        </div>
+        <!--</div>-->
 
 
-    </nav>
-</header>
+    <!--</nav>-->
+<!--</header>-->
 
 <main>
 
