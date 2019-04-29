@@ -9,7 +9,7 @@
 <body>
 <div th:fragment="navbaren">
 <nav class="navbar navbar-dark bg-primary navbar-expand-md">
-    <a class="navbar-brand" href="#"><img src="../static/img/logo.png" height="30" class="d-inline-block mr-1 align-middle"
+    <a class="navbar-brand" href="#"><img src="../static/img/logo.png" height="30" th:src="@{img/logo.png}" class="d-inline-block mr-1 align-middle"
                                           alt="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
             aria-controls="mainmenu" aria-expanded="false" aria-label="Navigation switch">

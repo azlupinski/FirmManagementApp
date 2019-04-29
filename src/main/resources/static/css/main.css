@@ -1,0 +1,50 @@
+body {
+    background-color: #2F3336;
+    color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+figure {
+    text-align: center;
+}
+
+h0 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #C0D06F;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.navbar-nav li:hover>.dropdown-menu {
+    display: block;
+}
+
+.figure {
+    margin: auto;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}
