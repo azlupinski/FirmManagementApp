@@ -3,18 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 <body>
 
 <!--<div th:include="navbar::#navbaren"></div>-->
 
-    <th:block th:include="navbar :: navbaren">Header</th:block>
+<th:block th:include="navbar :: navbaren">Header</th:block>
 <div class="container">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <div class="row mblank-1">
+        <div class="col-sm-12 col-md-4 mt-4">
+            <h0>User Info</h0>
+            <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis cum cupiditate distinctio dolore eaque eveniet expedita harum illo, laborum magnam numquam officia reiciendis repellendus sequi tempora vel vitae voluptatem?</span><span>Assumenda exercitationem fugit in iusto magnam minima nesciunt repudiandae. Aliquam, dolor doloribus eaque fuga, incidunt magni nostrum obcaecati praesentium quae ratione rem sequi voluptatibus! Accusantium corporis excepturi hic sequi voluptatibus.</span><span>Aliquam, architecto aut blanditiis, commodi earum ex laboriosam maxime nam, nesciunt nihil odit officiis sunt vero. Beatae ex iste laboriosam minima sapiente. Adipisci commodi consequatur, doloremque impedit odit quos saepe?</span><span>Aspernatur assumenda at ipsa ipsam iusto libero maxime minus placeat voluptas voluptatem. Ab aliquid autem culpa delectus dolor, explicabo harum iure perferendis quasi quibusdam quisquam ratione saepe soluta. Eum, necessitatibus.</span><span>Accusantium alias aspernatur at deserunt dignissimos dolor dolore, expedita in iusto laborum minus necessitatibus non nulla numquam omnis pariatur porro quisquam quo rem reprehenderit repudiandae similique tempore vel voluptas voluptatum.</span>
+            </p>
+        </div>
+
+        <div class="col-sm-12 col-md-8 mt-4">
+            <h0>Taski do wykonania</h0>
+            <p>
+            <ul>
+                <li>Item 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis cum
+                    cupiditate distinctio dolore eaque eveniet expedita harum illo, laborum magnam numquam officia
+                    reiciendis repellendus sequi tempora vel vitae voluptatem? Assumenda exercitationem fugit in iusto
+                    magnam minima nesciunt repudiandae. Aliquam, dolor doloribus eaque fuga, incidunt magni nostrum
+                    obcaecati praesentium quae ratione rem sequi voluptatibus! Accusantium corporis excepturi hic sequi
+                    voluptatibus
+                </li>
+                <li>Item 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis cum
+                    cupiditate distinctio dolore eaque eveniet expedita harum illo, laborum magnam numquam officia
+                    reiciendis repellendus sequi tempora vel vitae voluptatem? Assumenda exercitationem fugit in iusto
+                    magnam minima nesciunt repudiandae. Aliquam, dolor doloribus eaque fuga, incidunt magni nostrum
+                    obcaecati praesentium quae ratione rem sequi voluptatibus! Accusantium corporis excepturi hic sequi
+                    voluptatibus.
+                </li>
+                <li>Item 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis cum
+                    cupiditate distinctio dolore eaque eveniet expedita harum illo, laborum magnam numquam officia
+                    reiciendis repellendus sequi tempora vel vitae voluptatem? Assumenda exercitationem fugit in iusto
+                    magnam minima nesciunt repudiandae. Aliquam, dolor doloribus eaque fuga, incidunt magni nostrum
+                    obcaecati praesentium quae ratione rem sequi voluptatibus! Accusantium corporis excepturi hic sequi
+                    voluptatibus.
+                </li>
+                <li>Item 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis cum
+                    cupiditate distinctio dolore eaque eveniet expedita harum illo, laborum magnam numquam officia
+                    reiciendis repellendus sequi tempora vel vitae voluptatem? Assumenda exercitationem fugit in iusto
+                    magnam minima nesciunt repudiandae. Aliquam, dolor doloribus eaque fuga, incidunt magni nostrum
+                    obcaecati praesentium quae ratione rem sequi voluptatibus! Accusantium corporis excepturi hic sequi
+                    voluptatibus.
+                </li>
+            </ul>
+            </p>
+        </div>
+
+        <div class="row mt-2 mt-4">
+            <div class="col-sm-12 col-md-12 mt-4">
+                <h0>Ostatnio wykonane taski</h0>
+                <p><span><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at aut commodi consequatur distinctio earum eos expedita fuga hic inventore ipsam, laudantium nobis, non optio possimus quaerat quo voluptatem. Maxime.</span><span>Aliquam amet asperiores blanditiis cumque dolore doloremque ex excepturi fugit harum illo in, ipsam molestiae molestias nisi optio placeat possimus quaerat sint ullam velit. Explicabo minima odit qui repudiandae unde.</span><span>A ab accusantium ad architecto corporis cum cupiditate deleniti dicta doloremque dolores ea eius et facere fugit id iure magnam, maiores nam natus numquam quod repellat repellendus tenetur veniam vitae.</span></span>
+                </p>
+            </div>
+
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                    crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                    crossorigin="anonymous"></script>
+        </div>
+    </div>
 </div>
 </body>
 </html>
